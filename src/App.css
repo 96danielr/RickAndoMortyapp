@@ -1,0 +1,131 @@
+.App{
+
+  font-family: sans-serif;
+  background-color: rgb(39, 33, 33);
+  margin: 0;
+  
+  color: #fff;
+  box-sizing: border-box;
+  display: block;
+
+}
+
+.cover{
+
+  height: 250px;
+  background-image: url(https://images6.alphacoders.com/909/thumb-1920-909641.png);
+    
+  background-position: 45% 33%;
+  background-size: 100%;
+}
+
+.container{
+  padding: 15px;
+  margin: 0 auto;
+  position: relative;
+}
+
+h1{
+  text-align: center;
+  font-size: 3rem;
+  font-family: 'Pangolin', cursive;
+}
+
+input{
+  background: #443737;
+    box-shadow: 1px 1px 6px rgb(0 0 0 / 50%);
+    border: 0;
+    width: 90%;
+    height: 40px;
+    font-size: 1rem;
+    padding: 10px;
+    outline: 0;
+
+    writing-mode: horizontal-tb !important;
+    
+    text-rendering: auto;
+    margin-right: 20px;
+    color: white;
+    
+}
+
+h2{
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+
+  text-align: center;
+}
+
+.locate-info{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+h3{
+  font-size: 1.8rem;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  font-family: 'Pangolin', cursive;
+}
+
+.matrix{
+  display: flex;
+  flex-wrap: wrap;
+
+
+}
+.container-resident{
+  padding: 5px;
+  padding-right: 8px;
+  width: 45%;
+}
+.card{
+
+  display: flex;
+    margin-bottom: 20px;
+    height: 160px;
+    background: #3d3535;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgb(0 0 0 / 20%);
+
+}
+.resident-info{
+  padding: 8px 0 0 20px
+
+
+}
+
+.card img{
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px
+}
+.descript{
+  font-size: .8rem;
+  margin-bottom: 3.5px;
+  color: hsla(0,0%,100%,.4);
+}
+
+ p{
+  margin: 0 0 8px;
+}
+
+.item-info{
+
+  width: 33.33%;
+  text-align: center;
+  
+}
+
+
+
+
+
