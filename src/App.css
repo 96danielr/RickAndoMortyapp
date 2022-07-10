@@ -49,6 +49,19 @@ input{
     
 }
 
+button{
+  background: #443737;
+  color: #fff;
+  height: 60px;
+  box-shadow: 1px 1px 6px rgb(0 0 0 / 50%);
+    border: 0;
+    font-size: 1rem;
+    padding: 10px;
+    font-family: 'Pangolin', cursive;
+
+
+}
+
 h2{
     display: block;
     font-size: 1.5em;
@@ -83,10 +96,12 @@ h3{
 
 
 }
+
+
 .container-resident{
   padding: 5px;
-  padding-right: 8px;
-  width: 45%;
+  padding-right: 5px;
+  width: 30%;
 }
 .card{
 
@@ -99,7 +114,7 @@ h3{
 
 }
 .resident-info{
-  padding: 8px 0 0 20px
+  padding: 5px 0 0 20px
 
 
 }
@@ -123,6 +138,40 @@ h3{
   width: 33.33%;
   text-align: center;
   
+}
+
+@media screen and (max-width: 800px){
+  .container-resident{
+    padding: 5px;
+    padding-right: 5px;
+    width: 100%;
+  }
+
+  input{
+
+    width: 50%;
+  }
+  button{
+    width: 30%;
+    font-size: 25px;
+    height: 60px;
+  }
+
+  .cover{
+
+    background-size: 120%;
+  }
+
+  h1{
+    font-size: 35px;
+  }
+
+ 
+
+
+
+
+
 }
 
 
